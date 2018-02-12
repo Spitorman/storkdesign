@@ -1,0 +1,150 @@
+body {
+    font-family: 'Lato', sans-serif;
+}
+.navbar {
+   background-color: transparent;
+   background: transparent;
+   border-color: transparent;
+}
+
+.navbar li { color: #000 } 
+.header {
+    display: table;
+    position: relative;
+    width: 100%;
+    height: 766px;    
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+.logo {
+    margin-top: 15px; 
+}
+.floatL{
+    float: left;
+    margin-right: 25px;
+}
+.floatL2{
+    float: left;
+    margin-right: 15px;
+    margin-top: 25px;
+}
+.sol {
+    margin-top: 300px;
+    color: white;
+    word-spacing: 5px;
+     line-height: 25px;
+}
+.sol br {
+        line-height: 120%;
+     }
+.about {
+    height: auto;
+    padding: 70px 0px;
+}
+.numb {
+    margin-top: 10px;
+}
+.services {
+    background-color: #f6f6f6;
+    height: auto;
+    padding: 70px 0px;
+    font-size: 18px;
+    line-height: 35px;
+}
+.news {
+    height: 353px;
+    color: white;
+    padding: 60px;
+}
+.newsletter {
+    color: #1f1f1f;
+    background-color: #dfdfdf;
+    height: 70px;
+    width: 100%;
+    font-size: 24px;
+    padding: 15px 25px;
+    border: none;
+}
+.newu {
+    width: 50%;
+    height: auto;
+    margin: 0 auto;
+}
+.sign {
+    float: right;
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    font-size: 28px;
+    text-decoration: underline;
+    text-decoration-color: yellow;
+}
+.works {
+    min-height: 780px;
+    background-image: url(img/works.jpg);
+    background-position:center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    padding: 60px 0px 25px 0px;
+}
+.menuL {
+    margin-left: 25px;
+}
+.menuG{
+    font-size: 16px;
+}
+.menuG a{
+    color: black;
+    text-decoration: none;
+}
+.paddingBS {
+ padding: 0px;
+ margin: 0px;
+}
+.mtop {
+    margin-top: 25px;
+}
+.prices {
+    min-height: 700px;
+    background-image: url(img/prices.jpg);
+    background-position:center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    padding: 60px 0px 25px 0px;
+    color: #fff;
+}
+.bord1 {
+    border: 2px solid #5e5e5e;
+    border-right: none;
+    margin-top: 20px;
+    min-height: 450px;
+    padding: 25px 35px;
+}
+.bord2 {
+    border: 2px solid #1d6e14;
+    border-right: none;
+    margin-top: 20px;
+    min-height: 450px;
+    padding: 25px 35px;
+}.bord3 {
+    border: 2px solid #8a8616;
+    min-height: 490px;
+    padding: 25px 35px;
+}
+.bord4 {
+    border: 2px solid #842215;
+    border-left: none;
+    margin-top: 20px;
+    min-height: 450px;
+    padding: 25px 35px;
+}
+.mth {
+    margin-top: 10px;
+}
+.mtpo {
+    margin-top: 50px;
+}
