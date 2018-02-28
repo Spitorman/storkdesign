@@ -1,5 +1,8 @@
 body {
     font-family: 'Lato', sans-serif;
+    min-height: 100%;
+    position: relative;
+    
 }
 .navbar {
    background-color: transparent;
@@ -25,10 +28,15 @@ body {
     float: left;
     margin-right: 25px;
 }
-.floatL2{
+.floatL22{
     float: left;
     margin-right: 15px;
     margin-top: 25px;
+}
+.floatL2{
+    float: left;
+    margin-right: 10px;
+    margin-top: 2px;
 }
 .sol {
     margin-top: 300px;
@@ -57,6 +65,7 @@ body {
     height: 353px;
     color: white;
     padding: 60px;
+    width: 100%;
 }
 .newsletter {
     color: #1f1f1f;
@@ -82,24 +91,30 @@ body {
     font-size: 28px;
     text-decoration: underline;
     text-decoration-color: yellow;
+    font-weight: 300;
 }
 .works {
     min-height: 780px;
-    background-image: url(img/works.jpg);
-    background-position:center;
-    -webkit-background-size: cover;
-    background-size: cover;
+    background-color: #fff;
     padding: 60px 0px 25px 0px;
 }
-.menuL {
-    margin-left: 25px;
-}
-.menuG{
-    font-size: 16px;
+.menuG {
+    margin: 0 auto;
+    display: block;
+    width: 330px;
 }
 .menuG a{
     color: black;
     text-decoration: none;
+    display: block;
+}
+.menuG li{
+    display: inline;
+}
+.menuG a{
+    display: block;
+    float: left;
+    padding: 0px 10px;
 }
 .paddingBS {
  padding: 0px;
@@ -116,13 +131,36 @@ body {
     background-size: cover;
     padding: 60px 0px 25px 0px;
     color: #fff;
+    font-weight: 300;
+    
+}
+.prices h1,h2,h3,h4{
+    font-weight: 300;
+}
+.bord1 ul {
+    list-style-image: url('img/ulgrey.png');
+    line-height: 28px;
+}
+.bord2 ul {
+    list-style-image: url('img/ulgreen.png');
+    line-height: 28px;
+}
+.bord3 ul {
+    list-style-image: url('img/ulyellow.png');
+    line-height: 28px;
+}
+.bord4 ul {
+    list-style-image: url('img/ulred.png');
+    line-height: 28px;
 }
 .bord1 {
+    
     border: 2px solid #5e5e5e;
     border-right: none;
     margin-top: 20px;
     min-height: 450px;
     padding: 25px 35px;
+    
 }
 .bord2 {
     border: 2px solid #1d6e14;
@@ -133,7 +171,7 @@ body {
 }.bord3 {
     border: 2px solid #8a8616;
     min-height: 490px;
-    padding: 25px 35px;
+    padding: 15px 35px;
 }
 .bord4 {
     border: 2px solid #842215;
@@ -145,10 +183,24 @@ body {
 .mth {
     margin-top: 10px;
 }
+.mthmin {
+    margin-top: 0px;
+}
 .mtpo {
     margin-top: 50px;
 }
-
+.process {
+    margin: 15px 0px -100px;
+}
+.mak {
+    font-size: 18px;
+}
+.box2 {
+    padding-top: 50px;
+}
+.d5 {
+    margin-top: -20px;
+}
 /*===== Vertical Timeline =====*/
 #conference-timeline {
   position: relative;
@@ -174,7 +226,7 @@ body {
 #conference-timeline .conference-center-line {
   position: absolute;
   width: 3px;
-  height: 70%;
+  height: 73%;
   top: 0;
 margin-top: 50px;
   left: 50%;
@@ -298,6 +350,9 @@ margin-top: 50px;
   .timeline-article .content-right:before {
     display: none;
   }
+        .d5 {
+    margin-top: 0px;
+}
 }
 @media only screen and (max-width: 400px) {
   .timeline-article p {
@@ -306,6 +361,9 @@ margin-top: 50px;
   .timeline-article p span.article-number {
     display: none;
   }
+    .d5 {
+    margin-top: 0px;
+}
   
 }
 /*===== // Resonsive Vertical Timeline =====*/
@@ -313,3 +371,193 @@ h3 {
     margin: 0px;
     margin-bottom: 5px;
 }
+.lowbudget {
+    background-image: url(img/low-budget.jpg);
+    min-height: 333px;
+    position: relative;   
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+.textali {
+    position: absolute;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  color: white;
+  font-weight: 900;
+font-size: 30px;
+    text-align: center;
+}
+.juniors {
+    height: 333px;
+    background-color: #f5f5f5;
+    padding: 35px 50px;
+    font-size: 20px;
+    line-height: 24px;
+}
+.contact {
+    height: 600px;
+    position: relative;
+}
+.mtopb {
+    margin-top: 100px;
+}
+.contactF {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #000;
+    margin-left: 15px;
+    width: 80%;
+    margin-top: 20px;
+    font-size: 18px;
+}
+.contactF:focus {
+    border: none;
+    border-bottom: 1px solid #ffeb0a;
+}
+textarea:focus, input:focus{
+    outline: none;
+}
+.m0 {
+    margin-top: -50px;
+}
+.contactsend {
+    float: right;
+    margin-right: 100px;
+    margin-top: 20px;
+    background: transparent;
+    border: none;
+    font-size: 22px;
+    font-weight: 900;
+}
+.antyfloat {
+    clear: both;
+    margin-bottom: 100px;
+}
+.contactP {
+    color: white;
+    font-size: 18px;
+    padding: 50px;
+}
+.contactPr {
+    background-color: black;
+    min-height: 600px;
+    margin: 0;
+    
+}
+.con {
+    margin-top: 50px;
+    line-height: 40px;
+}
+.footer {
+    background-color: #030303;
+    height: 70px;
+    padding: 20px;
+    
+}
+.navbar-inversee {
+    background-color: red;
+}
+.navbar-header {
+  float: none;
+}
+.navbar-toggle {
+  display: block;
+}
+.navbar-collapse.collapse {
+  display: none!important;
+}
+.navbar-nav {
+  float: none!important;
+}
+.navbar-nav>li {
+  float: none;
+}
+.navbar-collapse.collapse.in{
+  display:block !important;
+}
+.low {
+    position: relative;
+}
+.ontop {
+    height: 333px;;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+.ontop2 {
+    height: auto;
+    padding-top: 50px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+.lowbu {
+    padding: 25px;
+}
+
+@media only screen and (max-width: 1024px) {
+    .siedem {
+        font-size: 14px;
+        line-height: 14px;
+    }
+    .mD10 {
+        margin-bottom: 50px;
+    }
+}@media only screen and (max-width: 990px) {
+    .contact {
+        height: 1100px;
+    }
+    .bord1 {
+    border: 2px solid #5e5e5e;
+    width: 80%;
+    margin: 20px auto 0px;
+        height: auto;
+}
+.bord2 {
+    border: 2px solid #1d6e14;
+    width: 80%;
+    margin: 20px auto 0px;
+    height: auto;
+}
+    .bord3 {
+    border: 2px solid #8a8616;
+    width: 80%;
+    margin: 20px auto 0px;
+    height: auto;
+}
+.bord4 {
+    border: 2px solid #842215;
+    width: 80%;
+    margin: 20px auto 0px;
+    height: auto;
+}
+}
+@media only screen and (max-width: 768px) {
+    .siedem {
+        font-size: 16px;
+        line-height: 16px;
+    }
+.contactF {
+    margin-left: 15px;
+    width: 80%;
+    }
+    .contactP {
+    margin-top: 30px;
+    padding: 50px 15px;
+}
+    .mD10 {
+        margin-bottom: 80px;
+    }
+
+}
+@media only screen and (max-width: 425px) {
+    .contactsend {
+        margin-right: 0px;
+}
+    
+    }

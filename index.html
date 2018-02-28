@@ -39,8 +39,7 @@
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
       <a class="navbar-brand" href="#home"></a>
-           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
+           <button type="button" class="navbar-toggle" data-toggle="collapse">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -48,7 +47,7 @@
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse collapse" id="bs-example-navbar-collapse-1">
+    <div class="navbar-collapse collapse">
       <ul class="nav navbar-nav navbar-right">
         <li class="active"><a href="#home">Home <span class="sr-only">(current)</span></a></li>
         <li><a href="#serv">Services</a></li>
@@ -67,8 +66,9 @@
           <div class="row">
               <div class="col-md-12">
                   <div class="sol">
-                      <img src="img/stroke.png" alt="" class="floatL"><h1>We ARE a growing <br>Digital agency that <br>provides the BEST <span style="color: #f3e61e;">SOLUTIONS</span>
+                      <img src="img/stroke.png" alt="" class="floatL"><h1><span style="font-weight: 300;">We ARE a growing <br>Digital agency that <br>provides the BEST <span style="color: #f3e61e;">SOLUTIONS</span></span>
 </h1>
+                 <div id="change_navbar"></div>
                   </div>
               </div>
           </div>
@@ -81,23 +81,24 @@
      <div class="container">
          <div class="col-md-7">
              <h1><b>Passionate developers team</b></h1><br><br>
-             <p><b>Duis a pharetra sapien. Quisque commodo pellentesque nisl, non mattis ante sagittis fringilla. Nunc eu elementum purus. In hac habitasse platea dictumst. Mauris elit nulla, suscipit a dignissim eget, commodo nec est. Vivamus faucibus scelerisque porta. Phasellus nec convallis diam. Praesent porta orci at hendrerit condimentum. Donec egestas luctus purus ac pulvinar. Donec in interdum sem. Nullam at tellus im perdiet, pulvinar sem cursus, interdum elit. Vestibulum eget condimentum odio. Nunc iaculis sollicitudin quam, a bibendum risus congue ut.Curabitur dignissim cursus tellus ac pretium. In neque ipsum, ultrices in viverra sed, finibus vitae eros. Phasellus lacinia ex elit. Maecenas lectus ipsum, volutpat eu enim et, varius faucibus mi</b></p>
+             <p><span style="font-size: 16px">Duis a pharetra sapien. Quisque commodo pellentesque nisl, non mattis ante sagittis fringilla. Nunc eu elementum purus. In hac habitasse platea dictumst. Mauris elit nulla, suscipit a dignissim eget, commodo nec est. Vivamus faucibus scelerisque porta. Phasellus nec convallis diam. Praesent porta orci at hendrerit condimentum. Donec egestas luctus purus ac pulvinar. Donec in interdum sem. Nullam at tellus im perdiet, pulvinar sem cursus, interdum elit. Vestibulum eget condimentum odio. Nunc iaculis sollicitudin quam, a bibendum risus congue ut.Curabitur dignissim cursus tellus ac pretium. In neque ipsum, ultrices in viverra sed, finibus vitae eros. Phasellus lacinia ex elit. Maecenas lectus ipsum, volutpat eu enim et, varius faucibus mi</span></p>
          </div>
+         
          <div class="col-md-1"></div>
-         <div class="col-md-4">
-             <div class="numb"><span style="font-size: 60px; float: left; margin-right: 35px; margin-top: -10px;"><b>+<span class="counter" data-count="40">0</span></b></span> <span style="font-size: 36px; line-height: 30px;"><b>Design</b> <br>&nbsp;&nbsp; Crafted</span></div><br>
-             <div class="numb"><span style="font-size: 60px; float: left; margin-right: 35px; margin-top: -10px;"><b>+<span class="counter" data-count="16">0</span></b></span> <span style="font-size: 36px; line-height: 30px;"><b>Websites</b> <br>&nbsp;&nbsp; Launched</span></div><br>
-             <div class="numb"><span style="font-size: 60px; float: left; margin-right: 35px; margin-top: -10px;"><b>+<span class="counter" data-count="99">0</span></b></span> <span style="font-size: 36px; line-height: 30px;"><b>Cups</b> <br>&nbsp;&nbsp; Of Coffe</span></div>
+         <div class="col-md-4 hidden-xs hidden-sm">
+             <div class="numb"><span style="font-size: 56px; float: left; margin-right: 35px; margin-top: -10px;"><b>+<span class="counter" data-count="40">0</span></b></span> <span style="font-size: 30px; line-height: 30px;"><b>Design</b> <br>&nbsp;&nbsp; Crafted</span></div><br>
+             <div class="numb"><span style="font-size: 56px; float: left; margin-right: 35px; margin-top: -10px;"><b>+<span class="counter" data-count="16">0</span></b></span> <span style="font-size: 30px; line-height: 30px;"><b>Websites</b> <br>&nbsp; Launched</span></div><br>
+             <div class="numb"><span style="font-size: 56px; float: left; margin-right: 35px; margin-top: -10px;"><b>+<span class="counter" data-count="99">0</span></b></span> <span style="font-size: 30px; line-height: 30px;"><b>Cups</b> <br>&nbsp;&nbsp; Of Coffe</span></div>
          </div>
      </div>
  </div>
   <div class="services">
       <div class="container">
           <div class="row">
-              <div class="col-md-3">
-              <h1><b>Our services</b></h1>
+              <div class="col-md-3 col-sm-12">
+              <h1><b><span style="font-weight:900;">Our services</span></b></h1>
               </div>
-              <div class="col-md-3">
+              <div class="col-md-3 col-sm-4">
                   <h2><b>Digital</b></h2><br>
                   Landing pages <br>
                   Responsive web design <br>
@@ -106,7 +107,7 @@
                   Web design <br>
                   App design
               </div>
-              <div class="col-md-3">
+              <div class="col-md-3 col-sm-4">
                   <h2><b>Graphic Design</b></h2><br>
                   Branding <br>
                   Banners <br>
@@ -114,7 +115,7 @@
                   Digital art <br>
                   
               </div>
-              <div class="col-md-3"><h2><b>Print</b></h2><br>
+              <div class="col-md-3 col-sm-4"><h2><b>Print</b></h2><br>
                   Brouchures <br>
                   Flyers <br>
                   Posters <br>
@@ -129,7 +130,7 @@
       <div class="container">
          <div class="newu">
           <center>
-              <h1>SIGN UP TO OUR NEWSLETTER</h1>
+              <h1><span style="font-weight: 300;">SIGN UP TO OUR NEWSLETTER</span></h1>
               <input type="text" class="newsletter" placeholder="Please enter email address">
               <input type="submit" class="sign" value="Sign up">
           </center>
@@ -139,15 +140,17 @@
     </div>
     <div class="works">
         <div class="container">
-            <center><h1><b>WORKS</b></h1></center><br><br>
+            <center><h1><span style="font-weight: 900">WORKS</span></h1></center><br>
             <div class="row">
-                <div class="col-md-4"></div>
-                 <div class="col-md-4 menuG">
-                     <a href="" ><span style="color: green">all</span></a>
-                  <a href="" class="menuL">digital</a>
-                  <a href="" class="menuL">graphic design</a>
-                  <a href="" class="menuL">print</a>
-                </div>
+                <center>
+                    <ul class="menuG">
+                    <a href=""><li><span style="color: green">all</span></li></a>
+                    <a href=""><li>digital</li></a>
+                    <a href=""><li>graphic design</li></a>
+                    <a href=""><li>print</li></a>
+                </ul>
+                </center>
+                
             </div>
         </div>
        <div class="container-fluid mtop">
@@ -168,19 +171,67 @@
     </div>
     <div class="prices">
          <div class="container">
-             <img src="img/stroke.png" alt="" class="floatL2" height="30px" width="1px"> <h1>Prices</h1>
+             <img src="img/stroke.png" alt="" class="floatL22" height="30px" width="1px"> <span style="font-weight: 300;"><h1>Prices</h1></span>
              <div class="row">
                  <div class="col-md-3 paddingBS bord1">
-                <center> <h3>One page website</h3></center>
+                <center> <h3><span style="font-weight: 300">One page website</span></h3></center> <br>
+                <ul>
+                      <li>Responsive web design</li>
+                      <li>1 page</li>
+                      <li>Friendly navigation</li>
+                      <li>Social media integration</li>
+                      <li>Editing tutorial</li>
+                      <li>Customization</li>
+                      <li>Optional extras</li>
+                  </ul>
              </div>
              <div class="col-md-3 paddingBS bord2">
-                  <center> <h3>GREEN PACKAGE</h3></center>
+                  <center> <h3>GREEN PACKAGE</h3></center><br>
+                  <ul>
+                      <li>Responsive web design</li>
+                      <li>Up to 8 pages</li>
+                      <li>Friendly navigation</li>
+                      <li>Social media integration</li>
+                      <li>Editing tutorial</li>
+                      <li>Customization</li>
+                      <li>Motif / Logo design</li>
+                      <li>Stationery designed</li>
+                      <li>Gallery available</li>
+                      <li>Optional extras</li>
+                  </ul>
              </div>
              <div class="col-md-3 paddingBS bord3">
-                  <center><span style="color: #8a8616; font-size: 12px;">MOST POPULAR</span> <h3 class="mth">GOLD PACKAGE</h3></center>
+                  <center><span style="color: #8a8616; font-size: 12px">MOST POPULAR</span> <h3 class="mth">GOLD PACKAGE</h3></center><br>
+                   <ul>
+                      <li>Responsive web design</li>
+                      <li>Up to 8 pages</li>
+                      <li>Friendly navigation</li>
+                      <li>Social media integration</li>
+                      <li>Editing tutorial</li>
+                      <li>Customization</li>
+                      <li>Motif / Logo design</li>
+                      <li>Stationery designed</li>
+                      <li>Gallery available</li>
+                      <li>Content Managment System</li>
+                      <li>Foundation SEO</li>
+                      <li>Optional extras</li>
+                  </ul>
              </div>
              <div class="col-md-3 paddingBS bord4">
-                  <center> <br><h3>BEST SOLUTIONS</h3></center>
+                  <center> <h3>BEST SOLUTIONS</h3></center><br>
+                  <ul>
+                      <li>Responsive web design</li>
+                      <li>Unlimited pages</li>
+                      <li>Social media integration</li>
+                      <li>Editing tutorial</li>
+                      <li>Customization</li>
+                      <li>Foundation SEO</li>
+                      <li>Stationery designed</li>
+                      <li>Extra features</li>
+                      <li>Content Managment System</li>
+                      <li>E-Commerce funcionallity</li>
+                      <li>Optional extras</li>
+                  </ul>
              </div>
              </div>
              <div class="mtpo"><center>GET IN TOUCH</center></div>
@@ -189,15 +240,17 @@
     <div class="proces">
         <div class="container">
             <div class="row">
-                <div class="col-md-7">
+                <div class="col-md-6">
                      <section id="conference-timeline">
+    <h1 class="visible-xs visible-sm"><center>PROCESS</center></h1>
     <div class="conference-center-line"></div>
     <div class="conference-timeline-content">
       <!-- Article -->
       <div class="timeline-article">
+         <h2 class="process hidden-sm hidden-xs">PROCESS</h2>
         <div class="content-right-container">
           <div class="content-right">
-           <h3>WE TALK</h3>
+           <h3><b>WE TALK</b></h3>
             <p>We start with a detailed discussion and a brief to understand your vision for the idea, gather requirements, and properly scope out your project timeline and pricing. We deliver a project document with all the details on time schedules, development plans and competitors analysis to begin with.. </p>
           </div>
         </div>
@@ -211,7 +264,7 @@
       <div class="timeline-article">
         <div class="content-left-container">
           <div class="content-left">
-           <h3>MAKING A BRIEF</h3>
+           <h3><b>MAKING A BRIEF</b></h3>
             <p>We start with a detailed discussion and a brief to understand your vision for the idea, gather requirements, and properly scope out your project timeline and pricing. We deliver a project document with all the details on time schedules, development plans and competitors analysis to begin with..</p>
           </div>
         </div>
@@ -225,7 +278,7 @@
       <div class="timeline-article">
         <div class="content-right-container">
           <div class="content-right">
-           <h3>DESIGN</h3>
+           <h3><b>DESIGN</b></h3>
             <p>We start with a detailed discussion and a brief to understand your vision for the idea, gather requirements, and properly scope out your project timeline and pricing. We deliver a project document with all the details on time schedules, development plans and competitors analysis to begin with..</p>
           </div>
         </div>
@@ -236,7 +289,7 @@
       <div class="timeline-article">
         <div class="content-left-container">
           <div class="content-left">
-            <h3>PROTOTYPE</h3>
+            <h3><b>PROTOTYPE</b></h3>
             <p>We start with a detailed discussion and a brief to understand your vision for the idea, gather requirements, and properly scope out your project timeline and pricing. We deliver a project document with all the details on time schedules, development plans and competitors analysis to begin with..</p>
           </div>
         </div>
@@ -246,8 +299,8 @@
       </div>
       <div class="timeline-article">
         <div class="content-right-container">
-          <div class="content-right">
-           <h3>DEVELPOMENT & LAUNCH</h3>
+          <div class="content-right d5">
+           <h3><b>DEVELPOMENT & LAUNCH</b></h3>
             <p>We start with a detailed discussion and a brief to understand your vision for the idea, gather requirements, and properly scope out your project timeline and pricing. We deliver a project document with all the details on time schedules, development plans and competitors analysis to begin with..</p>
           </div>
         </div>
@@ -260,13 +313,130 @@
     </div>
   </section>
                 </div>
+                <div class="col-md-6 mtpo mak">
+                    <div class="box">
+                        <img src="img/stroke2.png" alt="" class="floatL"><h3><b>YOU HAVE NOT FOUND THE PRICE FOR ONE<br>
+                        OF OUR SERVICES?</b></h3><br>
+                         <p>Nam quis felis facilisis, porta magna et, faucibus quam. Suspendisse finibus, nisl nec consequat vulputate, risus dolor eleifend mi, at mattis dolor leo et mi. Aenean enim lorem, interdum ac suscipit efficitur, convallis non nibh. Maecenas ante quam, eleifend at efficitur sed, tristique sed mi. Morbi mauris odio, tempus non enim cursus, condimentum semper quam. Maecenas pellentesque viverra odio, quis tincidunt odio condimentum vitae. Phasellus tempor tincidunt dolor eu varius. 
+                        </p><br>
+                        <b>ASK FOR A QUOTE</b>
+                    </div>
+               <div class="box2">
+                   <img src="img/stroke2.png" alt="" class="floatL"><h3><b>ARE YOU DETERMINED ON ANY OF <br>
+THE PACKAGES?</b></h3><br>
+               <p>Aliquam sed sodales ipsum. Nam bibendum quam eu enim sollicitudin porttitor eget id eros. Suspendisse consectetur vestibulum condimentum. Vivamus gravida tortor vitae nunc elementum, sed lobortis arcu ultrices. Suspendisse vitae scelerisque lorem. Pellentesque justo sem, auctor quis faucibus a, ullamcorper ac erat. Etiam fringilla, diam id pulvinar ornare, enim augue eleifend sapien, et tincidunt libero elit in lacus. Vivamus sed lorem eu odio eleifend convallis. 
+</p><br>
+               <b>MAKE A BRIEF</b>
+               </div>
+                </div>
+                <div class="mtpo"></div>
             </div>
         </div>
     </div>
-
+    <div class="low">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6 lowbudget"><span class="textali">DO YOU NEED LOW-BUDGET <br> PROJECT?</span></div>
+                <div class="col-md-6 juniors visible-sm visible-xs">
+                 <img src="img/stroke3.png" alt="" class="floatL2"><span style="font-weight: 900; font-size: 20px;">WORK WITH OUR JUNIORS</span>
+                <br><br>
+                <p class="siedem">Nam quis felis facilisis, porta magna et, faucibus quam. Suspendisse finibus, nisl nec consequat vulputate, risus dolor eleifend mi, at mattis dolor leo et mi. Aenean enim lorem, interdum ac suscipit efficitur, convallis non nibh. Maecenas ante quam, eleifend at efficitur sed, tristique sed mi. Morbi mauris odio, tempus non enim cursus, condimentum semper quam. Maecenas pellentesque viverra odio, quis tincidunt odio condimentum vitae. Phasellus tempor tincidunt dolor eu varius. Nullam rhoncus id ipsum nec luctus. Donec a luctus metus. Praesent arcu metus, pellentesque non risus vitae, interdum luctus risus. Integer magna eros, auctor non risus a, sollicitudin consequat velit.
+</p>
+               <br><b>GET IN TOUCH</b>
+               
+                </div>
+            </div>
+            <div class="container ontop">
+                 <div class="row hidden-xs hidden-sm">
+                     <div class="col-md-6"></div>
+                     <div class="col-md-6 lowbu">
+                     <img src="img/stroke3.png" alt="" class="floatL2"><span style="font-weight: 900; font-size: 20px;">WORK WITH OUR JUNIORS</span>
+                <br><br>
+                <p class="siedem">Nam quis felis facilisis, porta magna et, faucibus quam. Suspendisse finibus, nisl nec consequat vulputate, risus dolor eleifend mi, at mattis dolor leo et mi. Aenean enim lorem, interdum ac suscipit efficitur, convallis non nibh. Maecenas ante quam, eleifend at efficitur sed, tristique sed mi. Morbi mauris odio, tempus non enim cursus, condimentum semper quam. Maecenas pellentesque viverra odio, quis tincidunt odio condimentum vitae. Phasellus tempor tincidunt dolor eu varius. Nullam rhoncus id ipsum nec luctus. Donec a luctus metus. Praesent arcu metus, pellentesque non risus vitae, interdum luctus risus. Integer magna eros, auctor non risus a, sollicitudin consequat velit.
+</p>
+               <br><b>GET IN TOUCH</b>
+                </div>
+                 </div>
+            </div>
+        </div>
+    </div>
+<div class="contact">
+    <div class="container-fluid">
+        <div class="row">
+        <div class="col-md-6 contactL">
+            <div class="visible-xs visible-sm">
+                <img src="img/stroke4.png" alt="" class="floatL2"><span style="font-weight: 700; font-size: 30px;">CONTACT</span>
+            <h1 class="mtopb">Let's talk</h1>
+            <br>
+           <div class="antyfloat">
+                <form action="">
+                Name <input type="text" class="contactF" > <br>
+                Name <input type="text" class="contactF"> <br>
+                Name <input type="text" class="contactF"> <br>
+                Name <input type="text" class="contactF"> <br>
+                Name <input type="text" class="contactF"> <br>
+                <input type="submit" value="SEND" class="contactsend">
+            </form>
+           </div>
+            
+            </div>
+        </div>
+        <div class="col-md-6 contactPr">
+            <div class="visible-xs visible-sm contactP">
+                
+                 <p>We would love to discuss your ideas and explore the opportunities of working together. Fill out the quick contact form or simply drop us a line to get the communications started.</p>
+            <div class="con">
+                <img src="img/tel.png" alt="" style="float: left; margin-right: 15px;">075 45675 2145 <br>
+                <img src="img/list.png" alt="" style="float: left; margin-right: 15px;">info@storkdesign.co.uk <br>
+                <img src="img/map.png" alt="" style="float: left; margin-right: 15px;">Bridgwater, Somerset, England <br>
+            </div>
+            <div class="con">
+                <img src="img/fb.png" alt="" style="float: left; margin-right: 15px;">
+                <img src="img/twitter.png" alt="" style="float: left; margin-right: 15px;">
+                <img src="img/ig.png" alt="" style="float: left; margin-right: 15px;">
+            </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="container ontop2  hidden-xs hidden-sm">
+        <div class="row">
+            <div class="col-md-6 mD10">
+                <img src="img/stroke4.png" alt="" class="floatL2"><span style="font-weight: 700; font-size: 30px;">CONTACT</span>
+            <h1 class="mtopb">Let's talk</h1>
+            <br>
+           <div class="antyfloat">
+                <form action="">
+                Name <input type="text" class="contactF" > <br>
+                Name <input type="text" class="contactF"> <br>
+                Name <input type="text" class="contactF"> <br>
+                Name <input type="text" class="contactF"> <br>
+                Name <input type="text" class="contactF"> <br>
+                <input type="submit" value="SEND" class="contactsend">
+            </form>
+           </div>
+            </div>
+            <div class="col-md-6 contactP ">
+             <p>We would love to discuss your ideas and explore the opportunities of working together. Fill out the quick contact form or simply drop us a line to get the communications started.</p>
+            <div class="con">
+                <img src="img/tel.png" alt="" style="float: left; margin-right: 15px;">075 45675 2145 <br>
+                <img src="img/list.png" alt="" style="float: left; margin-right: 15px;">info@storkdesign.co.uk <br>
+                <img src="img/map.png" alt="" style="float: left; margin-right: 15px;">Bridgwater, Somerset, England <br>
+            </div>
+            <div class="con">
+                <img src="img/fb.png" alt="" style="float: left; margin-right: 15px;">
+                <img src="img/twitter.png" alt="" style="float: left; margin-right: 15px;">
+                <img src="img/ig.png" alt="" style="float: left; margin-right: 15px;">
+            </div>
+            </div>
+        </div>
+    </div>
+</div>
    <div class="footer">
-       <div class="col-md-12">
-           
+       <div class="container">
+           <div class="col-md-12">
+          <img src="img/logo.png" alt="" >
+       </div>
        </div>
    </div>
     <!-- jQuery -->
@@ -327,7 +497,18 @@ $(document).ready(function(){
   });
 });
 </script>
-
+<script>
+    $(window).scroll(function() {    
+    var scroll = $(window).scrollTop();
+    var objectSelect = $("#change_navbar");
+    var objectPosition = objectSelect.offset().top;
+    if (scroll > objectPosition) {
+        $(".about").addClass("change");
+    } else {
+        $(".about").removeClass("change");
+    }
+});
+    </script>
 </body>
 
 </html>
