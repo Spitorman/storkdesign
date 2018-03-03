@@ -158,7 +158,7 @@ body {
     border: 2px solid #5e5e5e;
     border-right: none;
     margin-top: 20px;
-    min-height: 450px;
+    min-height: 480px;
     padding: 25px 35px;
     
 }
@@ -166,19 +166,43 @@ body {
     border: 2px solid #1d6e14;
     border-right: none;
     margin-top: 20px;
-    min-height: 450px;
+    min-height: 480px;
     padding: 25px 35px;
 }.bord3 {
     border: 2px solid #8a8616;
-    min-height: 490px;
+    min-height: 520px;
     padding: 15px 35px;
 }
 .bord4 {
     border: 2px solid #842215;
     border-left: none;
     margin-top: 20px;
-    min-height: 450px;
+    min-height: 480px;
     padding: 25px 35px;
+}
+.bordtext {
+    margin: 0px;
+    padding: 0px;
+    min-height: 380px;
+}
+.bordtext2 {
+    margin-bottom: 35px;
+    padding: 0px;
+    min-height: 380px;
+}
+.bordtext3 {
+    margin: 0px;
+    padding: 0px;
+    min-height: 370px;
+}
+.cena {
+    font-size: 24px;
+    text-align: center;
+}
+.cena2 {
+    font-size: 24px;
+    text-align: center;
+    line-height: 21px;
 }
 .mth {
     margin-top: 10px;
@@ -228,7 +252,7 @@ body {
   width: 3px;
   height: 73%;
   top: 0;
-margin-top: 50px;
+margin-top: 80px;
   left: 50%;
   margin-left: -2px;
   background: #ffeb0a;
@@ -404,6 +428,9 @@ font-size: 30px;
 .mtopb {
     margin-top: 100px;
 }
+.contactL {
+    padding: 25px;
+}
 .contactF {
     background-color: transparent;
     border: none;
@@ -558,6 +585,30 @@ textarea:focus, input:focus{
 @media only screen and (max-width: 425px) {
     .contactsend {
         margin-right: 0px;
+        
 }
+    .newsletter {
+    color: #1f1f1f;
+    background-color: #dfdfdf;
+    height: 50px;
+    width: 100%;
+    font-size: 18px;
+    padding: 15px 25px;
+    border: none;
+}
+.newu {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+    .newu h1{
+        font-size: 28px;
+    }
+    .newlet{
+        height: 300px;
+    }
+    .juniors {
+        height: auto;
+    }
     
     }

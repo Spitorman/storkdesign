@@ -18,7 +18,6 @@
     <link href="custom.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
-    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&subset=latin-ext" rel="stylesheet">
 
@@ -89,6 +88,7 @@
              <div class="numb"><span style="font-size: 56px; float: left; margin-right: 35px; margin-top: -10px;"><b>+<span class="counter" data-count="40">0</span></b></span> <span style="font-size: 30px; line-height: 30px;"><b>Design</b> <br>&nbsp;&nbsp; Crafted</span></div><br>
              <div class="numb"><span style="font-size: 56px; float: left; margin-right: 35px; margin-top: -10px;"><b>+<span class="counter" data-count="16">0</span></b></span> <span style="font-size: 30px; line-height: 30px;"><b>Websites</b> <br>&nbsp; Launched</span></div><br>
              <div class="numb"><span style="font-size: 56px; float: left; margin-right: 35px; margin-top: -10px;"><b>+<span class="counter" data-count="99">0</span></b></span> <span style="font-size: 30px; line-height: 30px;"><b>Cups</b> <br>&nbsp;&nbsp; Of Coffe</span></div>
+
          </div>
      </div>
  </div>
@@ -125,9 +125,10 @@
           </div>
       </div>
   </div>
-  <div class="parallax-window" data-parallax="scroll" data-image-src="img/news.jpg">
-  <div class="news">
-      <div class="container">
+  <div class="parallax-window newlet" data-parallax="scroll" data-image-src="img/news.jpg">
+ <div class="container">
+      <div class="news">
+      
          <div class="newu">
           <center>
               <h1><span style="font-weight: 300;">SIGN UP TO OUR NEWSLETTER</span></h1>
@@ -174,6 +175,7 @@
              <img src="img/stroke.png" alt="" class="floatL22" height="30px" width="1px"> <span style="font-weight: 300;"><h1>Prices</h1></span>
              <div class="row">
                  <div class="col-md-3 paddingBS bord1">
+                 <div class="bordtext">
                 <center> <h3><span style="font-weight: 300">One page website</span></h3></center> <br>
                 <ul>
                       <li>Responsive web design</li>
@@ -184,8 +186,12 @@
                       <li>Customization</li>
                       <li>Optional extras</li>
                   </ul>
+                  </div>
+                  <div class="cena">£119.00</div>
+                  
              </div>
              <div class="col-md-3 paddingBS bord2">
+                 <div class="bordtext">
                   <center> <h3>GREEN PACKAGE</h3></center><br>
                   <ul>
                       <li>Responsive web design</li>
@@ -199,9 +205,15 @@
                       <li>Gallery available</li>
                       <li>Optional extras</li>
                   </ul>
+                 </div>
+                 <div class="cena">£179.00</div>
+                 
              </div>
              <div class="col-md-3 paddingBS bord3">
-                  <center><span style="color: #8a8616; font-size: 12px">MOST POPULAR</span> <h3 class="mth">GOLD PACKAGE</h3></center><br>
+                 
+                 <center><span style="color: #8a8616; font-size: 12px">MOST POPULAR</span></center> 
+                  <div class="bordtext2">
+                  <center><h3 class="mth">GOLD PACKAGE</h3></center><br>
                    <ul>
                       <li>Responsive web design</li>
                       <li>Up to 8 pages</li>
@@ -216,8 +228,12 @@
                       <li>Foundation SEO</li>
                       <li>Optional extras</li>
                   </ul>
+                 </div>
+                 <div class="cena">£249.00</div>
+                 
              </div>
              <div class="col-md-3 paddingBS bord4">
+                 <div class="bordtext3">
                   <center> <h3>BEST SOLUTIONS</h3></center><br>
                   <ul>
                       <li>Responsive web design</li>
@@ -232,11 +248,15 @@
                       <li>E-Commerce funcionallity</li>
                       <li>Optional extras</li>
                   </ul>
+                 </div>
+                 <div class="cena2"><span style="font-size: 14px;">starts from <br></span>£369.00</div>
+                 
              </div>
              </div>
              <div class="mtpo"><center>GET IN TOUCH</center></div>
          </div>
     </div>
+    <div id="element"></div>
     <div class="proces">
         <div class="container">
             <div class="row">
@@ -364,7 +384,7 @@ THE PACKAGES?</b></h3><br>
     <div class="container-fluid">
         <div class="row">
         <div class="col-md-6 contactL">
-            <div class="visible-xs visible-sm">
+            <div class="visible-xs visible-sm"><br>
                 <img src="img/stroke4.png" alt="" class="floatL2"><span style="font-weight: 700; font-size: 30px;">CONTACT</span>
             <h1 class="mtopb">Let's talk</h1>
             <br>
@@ -448,16 +468,16 @@ THE PACKAGES?</b></h3><br>
 
     <!-- Custom Theme JavaScript -->
 <script>
-$('.counter').each(function() {
+setTimeout(function(){
+       $('.counter').each(function() {
   var $this = $(this),
       countTo = $this.attr('data-count');
-  
   $({ countNum: $this.text()}).animate({
     countNum: countTo
   },
 
   {
-
+      
     duration: 3000,
     easing:'linear',
     step: function() {
@@ -470,6 +490,9 @@ $('.counter').each(function() {
 
   });  
     });
+
+}, 500);
+ 
 </script>
 <script>
 $(document).ready(function(){
