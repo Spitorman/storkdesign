@@ -587,6 +587,15 @@ textarea:focus, input:focus{
         margin-right: 0px;
         
 }
+    .jumbu {
+        height: 100vh;
+    }
+    .jumbu h1{
+        font-size: 28px;
+    }
+    .sol {
+        margin-top: 240px;
+    }
     .newsletter {
     color: #1f1f1f;
     background-color: #dfdfdf;
